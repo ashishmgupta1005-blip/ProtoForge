@@ -1,0 +1,23 @@
+{
+  "_comment": "Example MCP server entries for ProtoForge. Adapt the commands/args/paths to YOUR install, then merge into your Claude Code MCP configuration. Names matter: ProtoForge expects servers reachable as kipilot, freecad, blender.",
+
+  "mcpServers": {
+    "kipilot": {
+      "_comment": "KiCad PCB control. Install per the KiPilot MCP project; enable KiCad IPC API and restart KiCad.",
+      "command": "REPLACE_WITH_KIPILOT_LAUNCH_COMMAND",
+      "args": []
+    },
+
+    "freecad": {
+      "_comment": "neka-nat/freecad-mcp. Addon goes in FreeCAD's Mod dir; start the RPC server inside FreeCAD before use.",
+      "command": "uvx",
+      "args": ["freecad-mcp"]
+    },
+
+    "blender": {
+      "_comment": "ahujasid/blender-mcp. Install the addon, enable it, start its server from the addon panel; keep Blender open.",
+      "command": "uvx",
+      "args": ["blender-mcp"]
+    }
+  }
+}

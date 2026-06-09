@@ -1,0 +1,25 @@
+# ProtoForge local tool paths.
+# Copy to:  ~/.claude/protoforge.config   (Windows: %USERPROFILE%\.claude\protoforge.config)
+# Fill in the absolute paths for YOUR machine. Leave a value blank to let ProtoForge
+# try to find the tool on PATH (and ask you if it can't).
+#
+# KEY=VALUE, one per line. Use your OS's real paths.
+
+# --- KiCad ---
+# Windows: C:\Program Files\KiCad\10.0\bin\kicad-cli.exe
+# macOS:   /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli
+# Linux:   /usr/bin/kicad-cli
+KICAD_CLI=
+KICAD_FOOTPRINTS=        # optional: KiCad footprint library dir
+
+# --- Blender ---
+# Windows: C:\Program Files\Blender Foundation\Blender 4.3\blender.exe
+# macOS:   /Applications/Blender.app/Contents/MacOS/Blender
+# Linux:   /usr/bin/blender
+BLENDER=
+
+# --- Autoroute (Freerouting) ---
+# Java 21+ runtime:
+JAVA=
+# Path to the freerouting jar (e.g. .../freerouting-2.x.x.jar):
+FREEROUTING_JAR=

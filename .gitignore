@@ -1,0 +1,18 @@
+# Local, machine-specific config (never commit real paths)
+protoforge.config
+*.local
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/
+
+# Build / render artifacts if anyone works inside the repo
+*.mp4
+*.glb
+*.stl
+*.step
+__pycache__/
